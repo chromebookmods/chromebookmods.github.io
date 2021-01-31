@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChromebookMods</title>
+    <link rel="icon" href="../../favicon/logo.ico"  type="image/ico">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/scripts/console_warn.js"></script>
+    <link rel="stylesheet" href="/styles/home.css">
+    <script src="/scripts/requestPostsFromWebsocket.js" defer></script>
+</head>
+<body>
+    <%- include('../../partials/navbar.ejs')  %>
+    <div>
+        <div class="main left" role="main">
+            <article class="home-info">
+                <div style="width: 60%;">
+                    <h1 style="font-size:32px;">
+                        <b>
+                            Chromebook Modifications Website
+                        </b>
+                    </h1>
+                    <p style="font-size:26px;">
+                        This website will provide help and support for your modification of your Chromebook. 
+                        It should be fun and simple, you can search for a modification/post from the search
+                        bar above on the navigation bar. This site is regularly updated, as you can tell on the posts,
+                        as we add new ones each time we can.
+                        <br/><br/><br/>
+                        From this website, as you can tell, you support modifications to allow you to do stuff that
+                        you usually cannot. For example enter the BIOS of a Chromebook, or enable RW_Legacy to
+                        dual boot into other Live operating systems (using media drives, of course) or maybe drivers
+                        to fix audio from the Live booting. It's a whole heck of a fun journey. To support this website, you
+                        <!-- could donate to us or --> can subscribe to the YouTube channels [of the developers] in the about page.
+                        <br/><br/><br/><br/>
+                        Please acknowledge our policies that we (founders and developers of the site) condemn 
+                        resposibility of the damage or effects of your device. Do note that you should never
+                        do this on any other property, like a school Chromebook. You will always find this warning
+                        message at the footer of every page of the site and here, to ensure you have understand
+                        thoroughly our regulations. 
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="container">
+            <aside class="sidebar right" role="complementary">
+                <div class="widget">
+                    <h3 class="heading-widgets">Recent Mods</h3>
+                    <ul class="mods-post">
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
