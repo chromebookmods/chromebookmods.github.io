@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html body {
+    background-color: white; /* rgb(226, 228, 229); */
+    margin: 0;
+    text-rendering: auto !important;
+}
+
+html navbar {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+html h1, h2, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article, details, footer, header {
+    display: block;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
