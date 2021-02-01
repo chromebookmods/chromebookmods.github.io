@@ -19,6 +19,7 @@
     <link rel="icon" href="https://www.chromebookmods.ml/public/favicon/logo.ico"  type="image/ico">
     <link rel="stylesheet" href="https://www.chromebookmods.ml/public/styles/style.css">
     <link rel="stylesheet" href="https://www.chromebookmods.ml/public/styles/navbar.css">
+    <link rel="stylesheet" href="../public/styles/sitemap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://www.chromebookmods.ml/public/scripts/console_warn.js"></script>
 </head>
@@ -50,7 +51,41 @@
             </ul>
         </navbar>
     </header>
-    <div>
+    <div class="container">
+        <ul id="ul-container">
+            <li><span class="caret">posts</span>
+                <ul class="nested">
+                <li><a href="https://www.chromebookmods.ml/posts/developer-mode">developer-mode</a></li>
+                <!-- <li>Coffee</li> -->
+                <li><span class="caret"><a href="https://www.chromebookmods.ml/posts/dual-boot">dual-boot</a></span>
+                    <ul class="nested">
+                    <li><a href="https://www.chromebookmods.ml/posts/dual-boot/no-audio">no-audio</a></li>
+                    <!-- <li>White Tea</li>
+                    <li><span class="caret">Green Tea</span>
+                        <ul class="nested">
+                        <li>Sencha</li>
+                        <li>Gyokuro</li>
+                        <li>Matcha</li>
+                        <li>Pi Lo Chun</li>
+                        </ul>
+                    </li> -->
+                    </ul>
+                </li>  
+                </ul>
+            </li>
+            <li><a href="https://www.chromebookmods.ml/">home</a></li>
+            <li><a href="https://www.chromebookmods.ml/about">about<a/></li>
+        </ul>
+        <script>
+            var toggler = document.getElementsByClassName("caret");
+    
+            for (let i = 0; i < toggler.length; i++) {
+            toggler[i].addEventListener("click", function() {
+                this.parentElement.querySelector(".nested").classList.toggle("active");
+                this.classList.toggle("caret-down");
+            });
+            }
+        </script>
     </div>
 </body>
 </html>
