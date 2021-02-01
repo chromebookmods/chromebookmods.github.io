@@ -22,3 +22,4 @@ else
 fi
 
 rm zerobrane-lua-ide-downloader.sh # Self Destruct ~ Useless anyways
+rm ZeroBraneStudioEduPack-1.90-linux.sh # Useless too
