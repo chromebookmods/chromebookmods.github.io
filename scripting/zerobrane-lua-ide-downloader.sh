@@ -20,3 +20,5 @@ else
         echo "Use command 'zbstudio' to launch it"
         echo "Or use command 'zbstudio-uninstall' to uninstall it"
 fi
+
+rm zerobrane-lua-ide-downloader.sh # Self Destruct ~ Useless anyways
