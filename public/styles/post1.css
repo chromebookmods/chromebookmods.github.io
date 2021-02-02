@@ -1,0 +1,44 @@
+.textContainer h2 {
+    font-optical-sizing: auto;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.mainframe {
+    padding: 65px;
+}
+
+.information {
+    color: grey;
+    border-bottom: thin #edf1f2 solid;
+    padding: 1.85px ​26px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    width: 60%;
+    /* height: 100%; */
+}
+
+.content h4 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.content a {
+    text-decoration-color: black;
+    color: black;
+}
+
+.content img {
+    transition: transform .2s;
+}
+
+.content img:hover {
+  transform: scale(1.2);
+}
