@@ -16,6 +16,7 @@ if [[ $_input == "Y" || $_input == "y" ]]; then
         echo "Starting"
         echo "Use command 'zbstudio' to launch it again"
         echo "Or use command 'zbstudio-uninstall' to uninstall it"
+        zbstudio
 else
         echo "Use command 'zbstudio' to launch it"
         echo "Or use command 'zbstudio-uninstall' to uninstall it"
