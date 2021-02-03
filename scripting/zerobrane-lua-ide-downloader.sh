@@ -9,8 +9,7 @@ bash ZeroBraneStudioEduPack-1.90-linux.sh
 
 clear
 
-echo "Would you like to launch the IDE? [y/n]"
-read _input
+read -p "Would you like to launch the IDE? [y/n] " _input
 
 if [[ $_input == "Y" || $_input == "y" ]]; then
         echo "Starting"
