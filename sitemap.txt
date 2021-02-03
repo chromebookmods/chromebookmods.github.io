@@ -5,6 +5,7 @@ https://www.chromebookmods.ml/about/
 https://www.chromebookmods.ml/sitemap/
 https://www.chromebookmods.ml/sitemap/sitemap.txt
 https://www.chromebookmods.ml/posts/
+https://www.chromebookmods.ml/posts/zerobrane-ide/
 https://www.chromebookmods.ml/posts/developer-mode/
 https://www.chromebookmods.ml/posts/run-app-image-files/
 https://www.chromebookmods.ml/posts/dual-boot/
