@@ -22,6 +22,12 @@ const posts = [
         "index": "4",
         "title": "How To Install ZeroBrane IDE on Linux",
         "url": "https://www.chromebookmods.ml/posts/zerobrane-ide/"
+    },
+    
+    {
+        "index": "5",
+        "title": "How To Compress a Video with FFMPEG",
+        "url": "https://www.chromebookmods.ml/posts/compress-videos/"
     }
 
 ];
