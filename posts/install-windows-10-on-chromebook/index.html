@@ -169,8 +169,96 @@
             </div>
             <div class="text">
                 <h4>
-                    When it is done remove the USB from your computer, it is now ready.
+                    When it is done remove the USB from your computer, it is now ready. Now we must remove the write protection
+                    screw.
+                    <br/><br/>
+                    Ensure your Chromebook is completely backed up to your satisfaction.
+                    <br/>
+                    Turn off your Chromebook completely, until all lights are off (disconnect the charger if it is connected).
+                    <br/>
+                    Flip the Chromebook over, remove the screws with your screwdriver (these screws are sometimes star shaped, it can be sold in packets) 
+                    until the back cover comes off. Some Chromebooks' back plate pops off easily, others you may need to use some degree of force to pry it off.
+                    <br/>
+                    Locate the write-protect screw and remove it. You may need to do some research to find it's location. 
+                    For example, on the Acer Chromebook 14 CB3-431, it is located here:
                 </h4>
+            </div>
+            <div class="image">
+                <center>
+                    <img src="https://www.chromebookmods.ml/public/images/install-windows-10-on-chromebook/wp.png">
+                </center>
+            </div>
+            <div class="text">
+                <h4>
+                    Place the back panel back on, and put the screws back in. Ensure the entire panel is clicked in correctly before proceeding.
+                    <br/><br/>
+                    Now you must enable developer mode. Click <a href="https://www.chromebookmods.ml/posts/developer-mode/">here</a> to see the tutorial.
+                </h4>
+                <br/><br/>
+                <h><b><u>Setup and Flash Firmware</u></b></h>
+                <h4>After agreeing to the terms and conditions and connecting to your wifi, skip the sign in and click on "Browse as Guest".</h4>
+            </div>
+            <div class="image">
+                <center>
+                    <img src="https://www.chromebookmods.ml/public/images/install-windows-10-on-chromebook/f1.png">
+                </center>
+            </div>
+            <div class="text">
+                <h4>
+                    Open up Chrome and press <code>Ctrl+Alt+T</code> to open crosh. Just like in the dual boot post, type "shell" and then
+                    type <code>cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo install -Dt /usr/local/bin -m 755 firmware-util.sh</code>
+                    Once you run that, type <code>sudo firmware-util.sh</code>. A menu will pop up and show the following. Press 3; if the option is greyed
+                    out, then your device is not supported or write-protect is not disabled.
+                </h4>
+            </div>
+            <div class="image">
+                <center>
+                    <img src="https://www.chromebookmods.ml/public/images/install-windows-10-on-chromebook/crosh1.png">
+                </center>
+            </div>
+            <div class="text">
+                <h4>
+                    Press Y on these 2 prompts.
+                </h4>
+            </div>
+            <div class="image">
+                <center>
+                    <img src="https://www.chromebookmods.ml/public/images/install-windows-10-on-chromebook/crosh2.png">
+                    <img src="https://www.chromebookmods.ml/public/images/install-windows-10-on-chromebook/crosh3.png">
+                </center>
+            </div>
+            <div class="text">
+                <h4>
+                    If you have a spare USB stick, you may take a firmware backup, however it is usually not needed since
+                    if you ever want to return to stock Chrome OS, they provide stock shellballs for you.
+                    I answered "n" at this prompt.
+                </h4>
+            </div>
+            <div class="image">
+                <center>
+                    <img src="https://www.chromebookmods.ml/public/images/install-windows-10-on-chromebook/crosh4.png">
+                </center>
+            </div>
+            <div class="text">
+                <h4>
+                    Now it will begin downloading and flashing the firmware. As stated here, it can take up to 90 
+                    seconds so be patient and do not turn off your device.
+                </h4>
+            </div>
+            <div class="image">
+                <center>
+                    <img src="https://www.chromebookmods.ml/public/images/install-windows-10-on-chromebook/crosh5.png">
+                </center>
+            </div>
+            <div class="text">
+                <h4>
+                    Now you will be returned to the script's main menu. From here, chose "p" to power off your device.
+                </h4>
+            </div>
+            <div class="image">
+                <center>
+                    <img src="https://www.chromebookmods.ml/public/images/install-windows-10-on-chromebook/crosh6.png">
+                </center>
             </div>
         </div>
     </div>
