@@ -28,6 +28,12 @@ const posts = [
         "index": "5",
         "title": "How To Compress a Video with FFMPEG",
         "url": "https://www.chromebookmods.ml/posts/compress-videos/"
+    },
+    
+    {
+        "index": "6",
+        "title": "How To Install Windows 10 on Chromebook",
+        "url": "https://www.chromebookmods.ml/posts/install-windows-10-on-chromebook/"
     }
 
 ];
