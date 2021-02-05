@@ -67,6 +67,19 @@
     width: 200px;
 }
 
+.post6 {
+    background-image: url("https://www.chromebookmods.ml/public/images/install-windows-10-on-chromebook/thumbnail.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 4px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    height: 150px;
+    width: 200px;
+}
+
 .text {
     background-color: rgb(184, 183, 188);
     position: absolute;
