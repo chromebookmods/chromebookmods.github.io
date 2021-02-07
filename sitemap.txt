@@ -3,7 +3,7 @@ https://www.chromebookmods.ml/robots.txt
 https://www.chromebookmods.ml/posts/
 https://www.chromebookmods.ml/about/
 https://www.chromebookmods.ml/sitemap/
-https://www.chromebookmods.ml/sitemap/sitemap.txt
+https://www.chromebookmods.ml/sitemap.txt
 https://www.chromebookmods.ml/posts/
 https://www.chromebookmods.ml/posts/image-linux-on-usb/
 https://www.chromebookmods.ml/posts/install-windows-10-on-chromebook/
